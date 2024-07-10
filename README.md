@@ -11,8 +11,15 @@ On your local Windows machine, you should probably stick with something like the
 
 > **NOTE:** Files bigger than 4.30 GB are hard to run on Windows
 
-2. Using powershell, create a `conda` environment using the provided `environment.yml` file (this may take >15 minutes):
+2. Install anaconda
+
+3. Using powershell, create a `conda` environment using the provided `environment.yml` file (this may take >15 minutes):
 ```
 $ conda env create -f environment.yml
 $ conda activate DCPS-NLP
 ```
+
+4. In anaconda navigator, select the DCPS-NLP environment and open Jupyter
+
+5. Use a Jupyter notebook to explore the commands in the `.py` files in this repository. 
+
