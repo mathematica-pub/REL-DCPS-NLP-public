@@ -12,4 +12,4 @@ dependencies:
   - llama-cpp-python=0.2.24
   - openai=1.34.0
   - pip:
-    - python-dotenv=1.0.1
+    - python-dotenv==1.0.1
